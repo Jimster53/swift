@@ -1,0 +1,18 @@
+// Sparkie is 7 years old
+
+var dogAge = 7
+var earlyYears = 21
+
+// first two human years are 21 dog years
+var laterYears = (dogAge - 2) * 4
+
+// age of dog minus 2 multipled by 4
+ 
+var humanYears = earlyYears + laterYears
+// your dogs age in human years 
+
+print("My name is Sparkie! Ruff Ruff, I am \(humanYears)years old in human years.")
+
+// code above prints
+
+My name is Sparkie! Ruff Ruff, I am 41years old in human years.
