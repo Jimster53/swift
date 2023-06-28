@@ -1,0 +1,15 @@
+var pesos: Double = 4
+var reais: Double = 5
+var soles: Double = 6
+
+var total: Double
+
+/*
+1 Columbian pesos = .000240usd
+1 Brazilian Reais = .21usd 
+1 Peruvian Soles = .27usd 
+*/
+
+total = 0.000240 * pesos + 0.21 * reais + 0.27 * soles
+
+print("Total USD = $\(total)")
