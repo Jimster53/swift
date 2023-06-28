@@ -11,7 +11,7 @@ var laterYears = (dogAge - 2) * 4
 var humanYears = earlyYears + laterYears
 // your dogs age in human years 
 
-print("My name is Sparkie! Ruff Ruff, I am \(humanYears)years old in human years.")
+print("My name is Sparkie! Ruff Ruff, I am \(humanYears) years old in human years.")
 
 // code above prints
 
